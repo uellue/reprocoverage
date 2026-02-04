@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reprocoverage"
+description = "Reproducer for lockup due to coverage"
+license = {file = "LICENSE"}
+version = "0.0.1"
+requires-python = ">=3.9"
+dependencies = [
+    "libertem",
+	"pytest",
+	"coverage==7.13.3",
+	"pytest-cov",
+]
+authors = [
+    {name="Dieter Weber", email="d.weber@fz-juelich.de"},
+]
