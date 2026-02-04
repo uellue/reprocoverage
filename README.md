@@ -21,4 +21,5 @@ Reproducer for an issue with `coverage==7.13.3` on Windows
 ## How to make it not hang
 
 a) Pin the `coverage` version in `pyproject.toml` to `coverage<7.13.3`
+
 b) Remove the `--cov=libertem` in `tox.ini`
